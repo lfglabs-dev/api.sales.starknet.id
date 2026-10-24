@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 starknet = { git = "https://github.com/xJonathanLEI/starknet-rs", rev = "85906137d634c86b07de20fa33071e5cf186ce21" }
-axum = "0.6.17"
+axum = "0.8.9"
 toml = "0.5.10"
 serde = { version = "1.0.152", features = ["derive"] }
 serde_json = "1.0.96"
